@@ -4,7 +4,7 @@ install_github("google/amss")
 
 
 library(amss)
-n.years <- 4
+n.years <- 5
 time.n <- n.years * 52
 
 
@@ -165,7 +165,7 @@ dirname(rstudioapi::getSourceEditorContext()$path)
 fName = paste0(dirname(rstudioapi::getSourceEditorContext()$path),'/ObservedData.csv')
 
 
-write.csv(observed.data, file = fName)
+write.csv(observed.data1, file = fName)
 
 
 
